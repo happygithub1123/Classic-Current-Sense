@@ -1,0 +1,26 @@
+# KiCad local state and recovery files
+*.kicad_prl
+*.lck
+*.bak
+*-backups/
+_autosave-*
+~*
+.history/
+.mcp-backups/
+
+# Intermediate checks and desktop captures
+pcb_live_*.png
+Classic_Current_Sense_2d_view.png
+drc_initial.json
+drc_refined.rpt
+Classic_Current_Sense_drc_violations.json
+
+# Local delivery bundles duplicate the versioned design/manufacturing files
+*.zip
+
+# Local credentials and environments
+.env
+.env.*
+.venv/
+node_modules/
+__pycache__/
